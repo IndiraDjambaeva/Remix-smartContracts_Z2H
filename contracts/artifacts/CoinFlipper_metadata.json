@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "isWinner",
+						"type": "bool"
+					}
+				],
+				"name": "GamePlayed",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_option",
+						"type": "uint8"
+					}
+				],
+				"name": "playGame",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CoinFlipper.sol": "CoinFlipper"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CoinFlipper.sol": {
+			"keccak256": "0x691f2186dd0c11ab8a47c9a4613b4c4cc6f1734030b71e0602d7ac02f33e4f0a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://500cdd4113d654e55357bde82dfa7b921952547bfc4f37548fad63c0da14ac83",
+				"dweb:/ipfs/QmYtfBXZii4N8b5TNYZDQosKeQjqxzL3sun6A1YQsMn3h6"
+			]
+		}
+	},
+	"version": 1
+}

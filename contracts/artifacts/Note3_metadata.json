@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "noteSender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "addedNote",
+						"type": "string"
+					}
+				],
+				"name": "NoteAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "getNoteWithArray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_note",
+						"type": "string"
+					}
+				],
+				"name": "setNoteWithArray",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Note3.sol": "Note3"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Note3.sol": {
+			"keccak256": "0x01a11a4598684a37aff108b156a4ea0e6eb434e6576cb19acfaf812726c4d83d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://61459bd38412ad34d587803df63958ba1d4a2ff3281431d0b0b0970db5a24f34",
+				"dweb:/ipfs/QmYXhdFWLRyqCH3av73oNjbZDJDuzhmpVNf2qh33A9vHTA"
+			]
+		}
+	},
+	"version": 1
+}
